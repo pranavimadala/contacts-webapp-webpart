@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "contact-webapp-client-side-solution",
+    "id": "ee832f75-cac9-4f62-b6b8-81ee49072e45",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/contact-webapp.sppkg"
+  }
+}

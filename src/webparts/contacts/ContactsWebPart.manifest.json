@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "dd7df180-dc51-4e0e-aed3-900e534ad722",
+  "alias": "ContactsWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "Contacts" },
+    "description": { "default": "Contacts description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Contacts"
+    }
+  }]
+}

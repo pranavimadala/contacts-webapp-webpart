@@ -1,0 +1,86 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.contacts {
+  
+.title-container{
+  background-color:#3399CC;
+padding:22px 20px;
+color:white;
+font-size:34px;
+margin:0;
+}
+
+.nav-links{
+  color: white;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size:15px;
+  font-weight:900;
+}
+
+.nav-link{
+  overflow: hidden;
+  background-color:#333333;
+  color:white;
+  padding:6px;
+}
+.main-container{
+  position: relative;
+  top:5px;
+  width:280px;
+  display:inline-block;
+}
+
+.display{    
+  text-decoration: none;
+  color:black;
+}
+.display-list{ 
+  height:330px;
+  overflow:auto;
+}
+
+.display-item:hover{
+  background-color:skyblue;
+}
+
+.display-item{
+  border:1px solid black;
+  padding:5px;
+  list-style-type: none;
+}
+.body-routing{
+ 
+  position: absolute;
+  top:130px;
+  left:20rem;
+  width:500px;
+
+.form-container{
+    
+  width:340px;
+  box-shadow: 0 0 20px #333333;
+  padding:22px;
+  position: absolute;
+  margin:20px;
+  background-color:white;
+  height:300px;
+  overflow:auto;
+}
+.datainput{
+  float: right;
+}
+.edit-class{
+  border:none;
+  margin:10px;
+  float: right;
+  padding:10px;
+  padding-left:55px;
+  padding-right:55px;
+  background-color: #468C00;
+  color:white;
+  cursor:pointer;
+}
+}
+}
